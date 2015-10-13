@@ -7,6 +7,7 @@
  - Other Youtube Misc'
  - *Books :*
 	 -  Database Systems - Elmasri,Navathe
+	 - Excellent resource to learn on web all about [SQL](http://www3.ntu.edu.sg/home/ehchua/programming/#SQL) practically
  - Online References :
 	 - [A Quick-Start Tutorial on Relational Database Design](http://www3.ntu.edu.sg/home/ehchua/programming/sql/relational_database_design.html)
  - Datasets - MySQL Dumps :
@@ -18,7 +19,6 @@
 		 - [North Wind - MySQL](https://github.com/dalers/mywind) - MySQL Version. Original Version is provided my Microsoft to work with SQL Server 2005 & 2008. An Excellent resource of an sample database to learn how to optimize queries along with conceptual stimulation with real backup data seeded into the database.
 	
  - [Database Model Sample References](http://www.databaseanswers.org/data_models/index.htm)
-
-
-
-
+ - Tools : Only Pure OPensource Solutions !
+	 - [DBeaver](http://dbeaver.jkiss.org/) - Universal Database Manager
+	 - [Adminer](https://www.adminer.org/) - If you are fed up with PhPMyAdmin a better alternative for web based solution.
