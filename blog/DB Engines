@@ -12,9 +12,16 @@
 	
 	 - To **maintain data integrity, InnoDB also supports FOREIGN KEY referential-integrity constraints.** For more information about InnoDB, see [ The InnoDB Storage Engine.](http://dev.mysql.com/doc/refman/5.7/en/innodb-storage-engine.htm)
 	 
-		 - Note : From MySQL version 5.5 InnoDB became the default engine in order to check the engine support and default engine that your server supports use the below command  
+		 - Note : 
+			 - From MySQL version 5.5 InnoDB became the default engine in order to check the engine support and default engine that your server supports use the below command  
 	 
-	          >`show engines;`
+	          >`SHOW engines;`
+	          
+			 - By default means when we try to create the tables using the command it automatically defines InnoDB is the storage engine.
+			 > `CREATE TABLE some_database_name`
+			 
+
+ 
  
  - **MyISAM:** These tables have a small footprint. ***Table-level locking limits*** the performance in read/write workloads, so it is often used in read-only or read-mostly workloads in Web and data warehousing configurations.
 
