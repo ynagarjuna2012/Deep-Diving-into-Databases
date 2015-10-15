@@ -1,8 +1,8 @@
 
 
 
- All About DB Engines in MySQL (MYISAM & InnoDB)
-===========================================
+## All About DB Engines in MySQL (MYISAM & InnoDB)
+
 
  - **InnoDB:** The default storage engine in MySQL 5.7. 
 	 - ***InnoDB is a transaction-safe (ACID compliant) storage engine for MySQL that has commit, rollback, and crash-recovery capabilities to protect user data***. 
@@ -15,10 +15,10 @@
 		 - Note : 
 			 - From MySQL version 5.5 InnoDB became the default engine in order to check the engine support and default engine that your server supports use the below command  
 	 
-	          >`SHOW engines;`
+	          >```SHOW engines;```
 	          
 			 - By default means when we try to create the tables using the command it automatically defines InnoDB is the storage engine.
-			 > `CREATE TABLE some_database_name`
+			 > ```CREATE TABLE some_database_name```
 			 
 
  
